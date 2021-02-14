@@ -1,0 +1,65 @@
+li {
+    display: inline;
+}
+.navigation {
+    position: absolute;
+    width: 1400px;
+    height: 78px;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #2f281e;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.navigation__logo {
+    transform: translate(143px, 22px);
+    width: 30px;
+    height: 30px;
+}
+.navigation__name {
+    transform: translate(145px, 22px);
+    width: 143px;
+    height: 29px;
+}
+.navigation__links {
+    position: absolute;
+    font-size: 14px;
+    transform: translate(650px, 24px);
+    list-style-type: none;
+    width: 350px;
+    height: 28px;
+    border: 12px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.navigation__links-text {
+    margin: 20px;
+    border: 20px;
+    text-align: center;
+}
+.navigation__btn-sign-up {
+    position: absolute;
+    width: 110px;
+    height: 46px;
+    border-radius: 4px;
+    background-color: #ff9900;
+    color: #ffffff;
+    font-weight: 600;
+    transform: translate(1145px, 15px);
+}
+.navigation__btn-sign-in {
+    position: absolute;
+    width: 102px;
+    height: 46px;
+    border: 2px solid #bcd0e5;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #163a56;
+    font-weight: 600;
+    transform: translate(1029px, 15px);
+}
