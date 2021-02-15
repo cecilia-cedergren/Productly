@@ -31,16 +31,17 @@ li {
     right: 29%;
     top: calc(50% - 28px/2 - 1px);
     list-style-type: none;
-    width: 350px;
+    width: 400px;
     height: 28px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    transform: translateY(-20px);
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
 }
 .navigation__links-text {
     margin: 20px;
     border: 20px;
-    text-align: center;
+    word-spacing: 20px;
 }
 .navigation__btn-sign-up {
     position: absolute;
@@ -70,11 +71,9 @@ li {
     height: 496px;
     font-family: 'Poppins', sans-serif;
     position: absolute;
-    top: 128px;
-    left: 145px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    top: 30px;
+    left: 0px;
+
 }
 .header__content {
     position: absolute;
@@ -82,7 +81,7 @@ li {
     left: 145px;
     width: 518px;
     height: 331px;
-    transform: translate(0, 211px);
+    transform: translate(0, 50px);
 }
 .header__content-header {
     font-weight: 700;
@@ -92,6 +91,7 @@ li {
 .header__content-text {
     font-size: 18px;
     line-height: 28px;
+    transform: translateY(30px);
 }
 .header__btn-yellow {
     position: absolute;
@@ -127,7 +127,7 @@ li {
     width: 2211px;
     height: 543px;
     left: -406px;
-    top: 800px;
+    top: 600px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     display: flex;
@@ -214,7 +214,7 @@ li {
     width: 1110px;
     height: 574px;
     left: 145px;
-    top: 1397px;
+    top: 1200px;
     font-family: 'Poppins', sans-serif;
     color: #544837;
     font-weight: 500;
@@ -611,4 +611,84 @@ li {
     left: 715px;
     top: 2697px;
 }
+footer {
+    position: absolute;
+    width: 1109px;
+    height: 308px;
+    left: 160px;
+    top: 300px;
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 35px;
+    color: #544837;
+}
+.logo-footer {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 159px;
+    top: 3555px;
+}
+.name-footer {
+    position: absolute;
+    width: 142px;
+    height: 29px;
+    left: 201px;
+    top: 3558px;
+}
+.footer-links1 {
+    position: absolute;
+    width: 108px;
+    height: 205px;
+    left: 484px;
+    top: 3555px;
+    transform: translateY(80px);
+}
+.footer-links2 {
+    position: absolute;
+    width: 145px;
+    height: 205px;
+    left: 731px;
+    top: 3555px;
+    transform: translateY(80px);
+}
+.sign-up {
+    position: absolute;
+    width: 325px;
+    height: 199px;
+    left: 944px;
+    top: 3555px;
+}
+.rectangle {
+    position: absolute;
+    width: 325px;
+    height: 48px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background-color: #FFFFFF;
+    border: 1px solid #BCD0E5;
+    box-sizing: border-box;
+    border-radius: 4px;
+    transform: translateY(100px);
+}
+.footer-btn {
+    position: absolute;
+    width: 131px;
+    height: 39px;
+    left: 0%;
+    right: 59.69%;
+    top: 80.4%;
+    bottom: 0%;
+    background-color: #ff9900;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    border: none;
+}
+
     
